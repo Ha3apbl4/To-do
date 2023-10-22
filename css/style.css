@@ -1,0 +1,78 @@
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #384152;
+}
+input {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.container {
+	max-width: 840px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.todo__title {
+	margin-top: 28px;
+	color: #626b7c;
+	text-align: center;
+}
+.form__add__task {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 66px;
+}
+.input__task {
+	width: 100%;
+	border-radius: 20px;
+	padding: 14px 0 12px 12px;
+}
+.input__task__value {
+	background-color: #20283a;
+	color: #626b7c;
+}
+.input__task__value::placeholder {
+	color: #626b7c;
+}
+.task__btn {
+	background-color: transparent;
+	border: none;
+	margin-left: 12px;
+	padding: 0;
+	cursor: pointer;
+}
+.task__icon {
+	width: 48px;
+}
+
+.task__box {
+	display: flex;
+	width: 100%;
+	background-color: #111827;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	padding: 4px;
+}
+.task__text__value {
+	background-color: #111827;
+	color: #fff;
+	outline: #fff;
+}
+.task__text__value::placeholder {
+	color: #fff;
+}
+.task__icon {
+	background-position: center;
+	background-size: cover;
+}
+.task__edit {
+	background-image: url('../images/change.svg');
+}
+.task__ok {
+	background-image: url('../images/ok.svg');
+}
+.task__remove {
+	background-image: url('../images/delete.svg');
+}
